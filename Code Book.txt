@@ -1,0 +1,85 @@
+1 tBodyAcc-mean()-X		Mean of the body acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+2 tBodyAcc-mean()-Y		Mean of the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+3 tBodyAcc-mean()-Z		Mean of the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+4 tBodyAcc-std()-X		Standard deviation of the body acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+5 tBodyAcc-std()-Y		Standard deviation of the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+6 tBodyAcc-std()-Z		Standard deviation of the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+7 tGravityAcc-mean()-X		Mean of the gravity acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+8 tGravityAcc-mean()-Y		Mean of the gravity acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+9 tGravityAcc-mean()-Z		Mean of the gravity acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+10 tGravityAcc-std()-X		Standard deviation of the gravity acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+11 tGravityAcc-std()-Y		Standard deviation of the gravity acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+12 tGravityAcc-std()-Z		Standard deviation of the gravity acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+13 tBodyAccJerk-mean()-X		Mean of the Jerk signal from the body acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+14 tBodyAccJerk-mean()-Y		Mean of the Jerk signal from the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+15 tBodyAccJerk-mean()-Z		Mean of the Jerk signal from the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+16 tBodyAccJerk-std()-X		Standard deviation of the Jerk signal from the body acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+17 tBodyAccJerk-std()-Y		Standard deviation of the Jerk signal from the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+18 tBodyAccJerk-std()-Z		Standard deviation of the Jerk signal from the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the accelerometer
+19 tBodyGyro-mean()-X		Mean of the body acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the gyroscope
+20 tBodyGyro-mean()-Y		Mean of the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the gyroscope
+21 tBodyGyro-mean()-Z		Mean of the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the gyroscope
+22 tBodyGyro-std()-X		Standard deviation of the body acceleration in the X axis expressed in 'g' (gravity of earth) in the time domain coming from the gyroscope
+23 tBodyGyro-std()-Y		Standard deviation of the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the time domain coming from the gyroscope
+24 tBodyGyro-std()-Z		Standard deviation of the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the time domain coming from the gyroscope
+25 tBodyGyroJerk-mean()-X
+26 tBodyGyroJerk-mean()-Y
+27 tBodyGyroJerk-mean()-Z
+28 tBodyGyroJerk-std()-X
+29 tBodyGyroJerk-std()-Y
+30 tBodyGyroJerk-std()-Z
+31 tBodyAccMag-mean()
+32 tBodyAccMag-std()
+33 tGravityAccMag-mean()
+34 tGravityAccMag-std()
+35 tBodyAccJerkMag-mean()
+36 tBodyAccJerkMag-std()
+37 tBodyGyroMag-mean()
+38 tBodyGyroMag-std()
+39 tBodyGyroJerkMag-mean()
+40 tBodyGyroJerkMag-std()
+41 fBodyAcc-mean()-X		Mean of the body acceleration in the X axis expressed in 'g' (gravity of earth) in the frequency domain
+42 fBodyAcc-mean()-Y		Mean of the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the frequency domain
+43 fBodyAcc-mean()-Z		Mean of the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the frequency domain
+44 fBodyAcc-std()-X		Standard deviation of the body acceleration in the X axis expressed in 'g' (gravity of earth) in the frequency domain
+45 fBodyAcc-std()-Y		Standard deviation of the body acceleration in the Y axis expressed in 'g' (gravity of earth) in the frequency domain
+46 fBodyAcc-std()-Z		Standard deviation of the body acceleration in the Z axis expressed in 'g' (gravity of earth) in the frequency domain
+47 fBodyAcc-meanFreq()-X
+48 fBodyAcc-meanFreq()-Y
+49 fBodyAcc-meanFreq()-Z
+50 fBodyAccJerk-mean()-X
+51 fBodyAccJerk-mean()-Y
+52 fBodyAccJerk-mean()-Z
+53 fBodyAccJerk-std()-X
+54 fBodyAccJerk-std()-Y
+55 fBodyAccJerk-std()-Z
+56 fBodyAccJerk-meanFreq()-X
+57 fBodyAccJerk-meanFreq()-Y
+58 fBodyAccJerk-meanFreq()-Z
+59 fBodyGyro-mean()-X
+60 fBodyGyro-mean()-Y
+61 fBodyGyro-mean()-Z
+62 fBodyGyro-std()-X
+63 fBodyGyro-std()-Y
+64 fBodyGyro-std()-Z
+65 fBodyGyro-meanFreq()-X
+66 fBodyGyro-meanFreq()-Y
+67 fBodyGyro-meanFreq()-Z
+68 fBodyAccMag-mean()
+69 fBodyAccMag-std()
+70 fBodyAccMag-meanFreq()
+71 fBodyBodyAccJerkMag-mean()
+72 fBodyBodyAccJerkMag-std()
+73 fBodyBodyAccJerkMag-meanFreq()
+74 fBodyBodyGyroMag-mean()
+75 fBodyBodyGyroMag-std()
+76 fBodyBodyGyroMag-meanFreq()
+77 fBodyBodyGyroJerkMag-mean()
+78 fBodyBodyGyroJerkMag-std()
+79 fBodyBodyGyroJerkMag-meanFreq()
+80 angle(tBodyAccJerkMean),gravityMean)
+81 angle(tBodyGyroMean,gravityMean)
+82 angle(tBodyGyroJerkMean,gravityMean)
+83 angle(X,gravityMean)
+84 angle(Y,gravityMean)
+85 angle(Z,gravityMean)
